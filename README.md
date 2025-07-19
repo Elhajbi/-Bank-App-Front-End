@@ -25,7 +25,7 @@ This is the frontend application for the **Bank Management System** built with *
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/bank-app-frontend.git
+git clone https://github.com/Elhajbi/-Bank-App-Front-End.git
 cd bank-app-frontend
 npm install
 ng serve
