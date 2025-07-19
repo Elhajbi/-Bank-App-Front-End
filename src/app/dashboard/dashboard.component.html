@@ -1,0 +1,29 @@
+<div style="width: 700px; margin: auto;">
+  <h2>Dashboard</h2>
+
+  <section style="margin-bottom: 40px;">
+    <h3>Nombre de clients par mois</h3>
+    <canvas baseChart
+            [data]="clientsPerMonthData"
+            [options]="clientsPerMonthOptions"
+            chartType="bar">
+    </canvas>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h3>Répartition des comptes par type</h3>
+    <canvas baseChart
+            [data]="accountsTypeData"
+            chartType="pie">
+    </canvas>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h3>Volume des opérations par type</h3>
+    <canvas baseChart
+            [data]="operationsVolumeData"
+            [options]="operationsVolumeOptions"
+            chartType="line">
+    </canvas>
+  </section>
+</div>
